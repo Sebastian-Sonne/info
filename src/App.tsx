@@ -1,9 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Contact from "./pages/Contact";
 
-function App() {
-  
+export default function App() {
   return (
-    <h1 className="font-bold text-green-600 text-3xl">Hello World</h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App
