@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"tailwindcss -i ./src/assets/css/styles.css -o ./src/assets/css/styles.css --watch\"",
-    "styles": "npx tailwindcss -i ./src/assets/css/styles.css -o ./src/assets/css/output.css --watch",
+    "dev": "concurrently \"vite\" \"tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch\"",
+    "styles": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch",
     "build": "tsc -b && vite build",
     "deploy": "tsc && vite build && copy CNAME dist && gh-pages -d dist",
     "lint": "eslint .",
