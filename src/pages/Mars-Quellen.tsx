@@ -2,9 +2,12 @@ import { useEffect } from "react"
 import { Footer } from "../components/Footer";
 
 const sources = [
-    { name: "Source 1", url: "https://source1.com" },
-    { name: "Source 2", url: "https://source2.com" },
-    { name: "Source 3", url: "https://source3.com" },
+    { name: "Welt der Physik", url: "https://www.weltderphysik.de/gebiet/universum/nachrichten/2024/marsforschung-wasser-in-den-tiefen-des-mars/" },
+    { name: "Tagesschau", url: "https://www.tagesschau.de/wissen/technologie/nasa-esa-mars-wasser-klimawandel-100.html" },
+    { name: "Wikipedia", url: "https://en.wikipedia.org/wiki/Water_on_Mars" },
+    { name: "Inner Workings", url: "https://lernplattform.mebis.bycs.de/pluginfile.php/88272271/mod_page/content/3/Mars.pdf" },
+    { name: "National Geographic", url: "https://www.nationalgeographic.de/wissenschaft/nasa-findet-definitiv-fluessiges-wasser-auf-dem-mars"},
+    { name: "ScineXX", url: "https://www.scinexx.de/news/kosmos/neue-belege-fuer-urzeitlichen-marsozean/"},
 ];
 
 export const SourcesPage = () => {
