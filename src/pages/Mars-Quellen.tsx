@@ -8,6 +8,8 @@ const sources = [
     { name: "Inner Workings", url: "https://lernplattform.mebis.bycs.de/pluginfile.php/88272271/mod_page/content/3/Mars.pdf" },
     { name: "National Geographic", url: "https://www.nationalgeographic.de/wissenschaft/nasa-findet-definitiv-fluessiges-wasser-auf-dem-mars"},
     { name: "ScineXX", url: "https://www.scinexx.de/news/kosmos/neue-belege-fuer-urzeitlichen-marsozean/"},
+    { name: "Nasa", url: "https://science.nasa.gov/resource/mission-overview-nasas-perseverance-mars-rover/"},
+    { name: "Nasa JPL", url: "https://www.jpl.nasa.gov/news/nasas-perseverance-fords-an-ancient-river-to-reach-science-target/"},
 ];
 
 export const SourcesPage = () => {
