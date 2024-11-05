@@ -16,6 +16,12 @@ const sources: SourceScreenProps = {
             date: '05.11.2024'
         },
         {
+            name: 'BPB - Kurz & Knapp',
+            description: 'Artikel: Entwicklungshilfe',
+            url: 'https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19219/entwicklungshilfe/',
+            date: '05.11.2024'
+        },
+        {
             name: 'BMZ',
             description: 'Bundesministerium für wirt. Zusammenarbeit und Entwicklung',
             url: [
@@ -31,15 +37,33 @@ const sources: SourceScreenProps = {
                     url: 'https://www.bmz.de/de/ministerium/geschichte/von-entwicklungshilfe-zu-entwicklungszusammenarbeit-96652',
                     date: '05.11.2024'
                 },
+                {
+                    name: 'Frieden',
+                    description: 'Artikel: Definition von Frieden',
+                    url: 'https://www.bmz.de/de/service/lexikon/frieden-14384',
+                    date: '05.11.2024'
+                },
+                {
+                    name: 'Internationale Entwicklungszusammenarbeit',
+                    description: 'Zusammenhang Unterstüzung und Frieden',
+                    url: 'https://www.bmz.de/de/darum?gad_source=1',
+                    date: '05.11.2024'
+                }
             ],
-
-            date: '05.11.2024'
+            date: '--'
         },
         {
-            name: 'BPB - Kurz & Knapp',
-            description: 'Artikel: Entwicklungshilfe',
-            url: 'https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19219/entwicklungshilfe/',
-            date: '05.11.2024'
+            name: 'LLMs',
+            description: 'Benutzung von Künstlicher Intilligenz',
+            url: [
+                {
+                    name: 'ChatGPT',
+                    description: 'Verschaffung eines groben Überblicks - Quellen seperat Angegeben',
+                    url: 'https://chatgpt.com/',
+                    date: 'GPT-4o'
+                },
+            ],
+            date: '--'
         },
     ]
 }
