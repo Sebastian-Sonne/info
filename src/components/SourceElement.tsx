@@ -1,5 +1,5 @@
 
-type SourceElementProps = {
+export type SourceElementProps = {
     source: {
         name: string,
         description: string,
@@ -10,7 +10,7 @@ type SourceElementProps = {
 export const SourceElement: React.FC<SourceElementProps> = ({ source }) => {
 
     return (
-        <li className="flex justify-between items-center p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition">
+        <li className="flex justify-between items-center p-4 bg-gray-100 rounded-xl hover:bg-gray-200 transition">
 
 
             <div>
