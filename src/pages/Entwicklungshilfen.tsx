@@ -22,6 +22,12 @@ const sources: SourceScreenProps = {
             date: '05.11.2024'
         },
         {
+            name: 'GIZ - Internationale Zusammenarbeit',
+            description: 'Artikel: Entwicklungshilfen in Ruanda',
+            url: 'https://www.giz.de/de/weltweit/332.html',
+            date: '06.11.2024'
+        },
+        {
             name: 'BMZ',
             description: 'Bundesministerium für wirt. Zusammenarbeit und Entwicklung',
             url: [
@@ -45,10 +51,16 @@ const sources: SourceScreenProps = {
                 },
                 {
                     name: 'Internationale Entwicklungszusammenarbeit',
-                    description: 'Zusammenhang Unterstüzung und Frieden',
+                    description: 'Artikel: Zusammenhang Unterstüzung und Frieden',
                     url: 'https://www.bmz.de/de/darum?gad_source=1',
                     date: '05.11.2024'
-                }
+                },
+                {
+                    name: 'Ruanda',
+                    description: 'Artikel: Deutsche Entwicklungszusammenarbeit mit Ruanda',
+                    url: 'https://www.bmz.de/de/laender/ruanda',
+                    date: '06.11.2024'
+                },
             ],
             date: '--'
         },
