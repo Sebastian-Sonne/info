@@ -61,6 +61,18 @@ const sources: SourceScreenProps = {
                     url: 'https://www.bmz.de/de/laender/ruanda',
                     date: '06.11.2024'
                 },
+                {
+                    name: 'Weltbank',
+                    description: 'Artikel: Die Weltbank',
+                    url: 'https://www.bmz.de/de/service/lexikon/weltbank-14938',
+                    date: '09.11.2024'
+                },
+                {
+                    name: 'Entwicklungshilfen',
+                    description: 'Artikel: Warum gibt es Entwicklungshilfen?',
+                    url: 'https://www.bmz.de/de/ministerium/grundsaetze-ziele/warum-entwicklungspolitik-59906',
+                    date: '11.11.2024'
+                },
             ],
             date: '--'
         },
@@ -73,6 +85,25 @@ const sources: SourceScreenProps = {
                     description: 'Verschaffung eines groben Überblicks - Quellen seperat Angegeben',
                     url: 'https://chatgpt.com/',
                     date: 'GPT-4o'
+                },
+            ],
+            date: '--'
+        },
+        {
+            name: 'Bildnachweis',
+            description: 'Benutzte Bilder & Grafiken',
+            url: [
+                {
+                    name: 'Karte Fallbeispiele',
+                    description: '',
+                    url: 'https://snazzymaps.com/style/15/subtle-grayscale',
+                    date: '09.11.2024'
+                },
+                {
+                    name: 'ODA Statistiken',
+                    description: '',
+                    url: 'https://www.oecd.org/en/topics/policy-issues/official-development-assistance-oda.html',
+                    date: '11.11.2024'
                 },
             ],
             date: '--'
