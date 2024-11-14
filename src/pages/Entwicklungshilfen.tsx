@@ -91,7 +91,7 @@ const sources: SourceScreenProps = {
         },
         {
             name: 'Bildnachweis',
-            description: 'Benutzte Bilder & Grafiken',
+            description: 'Benutzte Grafiken & Statistiken',
             url: [
                 {
                     name: 'Karte Fallbeispiele',
@@ -100,11 +100,39 @@ const sources: SourceScreenProps = {
                     date: '09.11.2024'
                 },
                 {
-                    name: 'ODA Statistiken',
-                    description: '',
+                    name: 'OECD ODA',
+                    description: 'ODA Beiträge',
                     url: 'https://www.oecd.org/en/topics/policy-issues/official-development-assistance-oda.html',
                     date: '11.11.2024'
                 },
+                {
+                    name: 'Statista',
+                    description: 'Ruanda Gesamtbevölerung',
+                    url: 'https://de.statista.com/statistik/daten/studie/412436/umfrage/gesamtbevoelkerung-von-ruanda/',
+                    date: '14.11.2024'
+                },
+                {
+                    name: 'Statista',
+                    description: 'Ruanda BIP pro Kopf',
+                    url: 'https://de.statista.com/statistik/daten/studie/412470/umfrage/bruttoinlandsprodukt-bip-pro-kopf-in-ruanda/',
+                    date: '14.11.2024'
+                },
+                {
+                    name: 'Statista',
+                    description: 'Afghanistan getötete Zivilisten Infolge von Kampfhandlungen',
+                    url: 'https://de.statista.com/statistik/daten/studie/75326/umfrage/getoetete-zivilisten-in-afghanistan-seit-2007/',
+                    date: '14.11.2024'
+                },
+                {
+                    name: 'Statista',
+                    description: 'Afghanistan BIP pro Kopf',
+                    url: 'https://de.statista.com/statistik/daten/studie/256439/umfrage/bruttoinlandsprodukt-bip-pro-kopf-in-afghanistan/',
+                    date: '14.11.2024'
+                },
+
+                
+
+                
             ],
             date: '--'
         },
