@@ -119,9 +119,9 @@ const sources: SourceScreenProps = {
                 },
                 {
                     name: 'Statista',
-                    description: 'Afghanistan getötete Zivilisten Infolge von Kampfhandlungen',
-                    url: 'https://de.statista.com/statistik/daten/studie/75326/umfrage/getoetete-zivilisten-in-afghanistan-seit-2007/',
-                    date: '14.11.2024'
+                    description: 'Afghanistan Menschen in Not',
+                    url: 'https://de.statista.com/statistik/daten/studie/1309351/umfrage/menschen-in-not-in-afghanistan/',
+                    date: '16.11.2024'
                 },
                 {
                     name: 'Statista',
