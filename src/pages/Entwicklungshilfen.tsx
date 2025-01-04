@@ -128,11 +128,7 @@ const sources: SourceScreenProps = {
                     description: 'Afghanistan BIP pro Kopf',
                     url: 'https://de.statista.com/statistik/daten/studie/256439/umfrage/bruttoinlandsprodukt-bip-pro-kopf-in-afghanistan/',
                     date: '14.11.2024'
-                },
-
-                
-
-                
+                },   
             ],
             date: '--'
         },
