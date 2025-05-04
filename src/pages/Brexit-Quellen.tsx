@@ -2,138 +2,70 @@ import { useEffect } from "react"
 import { SourceScreen, SourceScreenProps } from "../components/screens/SourceScreen"
 
 const sources: SourceScreenProps = {
-    sources: [
-        {
-            name: 'Annual Reviews',
-            description: 'Artikel: Does Foreign Aid Build Peace?',
-            url: 'https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-041916-015516',
-            date: '05.11.2024'
-        },
-        {
-            name: 'OECD',
-            description: 'Artikel: Official Development Assistance',
-            url: 'https://www.oecd.org/en/topics/policy-issues/official-development-assistance-oda.html',
-            date: '05.11.2024'
-        },
-        {
-            name: 'BPB - Kurz & Knapp',
-            description: 'Artikel: Entwicklungshilfe',
-            url: 'https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19219/entwicklungshilfe/',
-            date: '05.11.2024'
-        },
-        {
-            name: 'GIZ - Internationale Zusammenarbeit',
-            description: 'Artikel: Entwicklungshilfen in Ruanda',
-            url: 'https://www.giz.de/de/weltweit/332.html',
-            date: '06.11.2024'
-        },
-        {
-            name: 'BMZ',
-            description: 'Bundesministerium für wirt. Zusammenarbeit und Entwicklung',
-            url: [
-                {
-                    name: 'Frieden und Sicherheit',
-                    description: 'Artikel: Die Ansätze des deutschen entwicklungspolitischen Engagements',
-                    url: 'https://www.bmz.de/de/themen/frieden-und-sicherheit',
-                    date: '05.11.2024'
-                },
-                {
-                    name: 'Entwicklungszusammenarbeit',
-                    description: 'Artikel: Von der Entwicklungshilfe zur Entwicklungszusammenarbeit',
-                    url: 'https://www.bmz.de/de/ministerium/geschichte/von-entwicklungshilfe-zu-entwicklungszusammenarbeit-96652',
-                    date: '05.11.2024'
-                },
-                {
-                    name: 'Frieden',
-                    description: 'Artikel: Definition von Frieden',
-                    url: 'https://www.bmz.de/de/service/lexikon/frieden-14384',
-                    date: '05.11.2024'
-                },
-                {
-                    name: 'Internationale Entwicklungszusammenarbeit',
-                    description: 'Artikel: Zusammenhang Unterstüzung und Frieden',
-                    url: 'https://www.bmz.de/de/darum?gad_source=1',
-                    date: '05.11.2024'
-                },
-                {
-                    name: 'Ruanda',
-                    description: 'Artikel: Deutsche Entwicklungszusammenarbeit mit Ruanda',
-                    url: 'https://www.bmz.de/de/laender/ruanda',
-                    date: '06.11.2024'
-                },
-                {
-                    name: 'Weltbank',
-                    description: 'Artikel: Die Weltbank',
-                    url: 'https://www.bmz.de/de/service/lexikon/weltbank-14938',
-                    date: '09.11.2024'
-                },
-                {
-                    name: 'Entwicklungshilfen',
-                    description: 'Artikel: Warum gibt es Entwicklungshilfen?',
-                    url: 'https://www.bmz.de/de/ministerium/grundsaetze-ziele/warum-entwicklungspolitik-59906',
-                    date: '11.11.2024'
-                },
-            ],
-            date: '--'
-        },
-        {
-            name: 'LLMs',
-            description: 'Benutzung von Künstlicher Intilligenz',
-            url: [
-                {
-                    name: 'ChatGPT',
-                    description: 'Verschaffung eines groben Überblicks - Quellen seperat Angegeben',
-                    url: 'https://chatgpt.com/',
-                    date: 'GPT-4o'
-                },
-            ],
-            date: '--'
-        },
-        {
-            name: 'Bildnachweis',
-            description: 'Benutzte Grafiken & Statistiken',
-            url: [
-                {
-                    name: 'Karte Fallbeispiele',
-                    description: '',
-                    url: 'https://snazzymaps.com/style/15/subtle-grayscale',
-                    date: '09.11.2024'
-                },
-                {
-                    name: 'OECD ODA',
-                    description: 'ODA Beiträge',
-                    url: 'https://www.oecd.org/en/topics/policy-issues/official-development-assistance-oda.html',
-                    date: '11.11.2024'
-                },
-                {
-                    name: 'Statista',
-                    description: 'Ruanda Gesamtbevölerung',
-                    url: 'https://de.statista.com/statistik/daten/studie/412436/umfrage/gesamtbevoelkerung-von-ruanda/',
-                    date: '14.11.2024'
-                },
-                {
-                    name: 'Statista',
-                    description: 'Ruanda BIP pro Kopf',
-                    url: 'https://de.statista.com/statistik/daten/studie/412470/umfrage/bruttoinlandsprodukt-bip-pro-kopf-in-ruanda/',
-                    date: '14.11.2024'
-                },
-                {
-                    name: 'Statista',
-                    description: 'Afghanistan Menschen in Not',
-                    url: 'https://de.statista.com/statistik/daten/studie/1309351/umfrage/menschen-in-not-in-afghanistan/',
-                    date: '16.11.2024'
-                },
-                {
-                    name: 'Statista',
-                    description: 'Afghanistan BIP pro Kopf',
-                    url: 'https://de.statista.com/statistik/daten/studie/256439/umfrage/bruttoinlandsprodukt-bip-pro-kopf-in-afghanistan/',
-                    date: '14.11.2024'
-                },   
-            ],
-            date: '--'
-        },
+    "sources": [
+      {
+        "name": "2016 Referendum Vote Map",
+        "description": "A map showing the results of the 2016 Brexit referendum by region.",
+        "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum#/media/File:United_Kingdom_EU_referendum_2016_area_results_2-tone.svg",
+        "date": "24.04.2025"
+      },
+      {
+        "name": "2016 Referendum Vote Data",
+        "description": "Vote data from the 2016 Brexit referendum.",
+        "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum",
+        "date": "24.04.2025"
+      },
+      {
+        "name": "2016 Referendum Demographic Vote Data",
+        "description": "Demographic analysis of how different groups voted in the 2016 Brexit referendum.",
+        "url": "https://yougov.co.uk/politics/articles/15796-how-britain-voted",
+        "date": "24.04.2025"
+      },
+      {
+        "name": "Bent Bananas Myth",
+        "description": "The persistent myth that the EU banned bent bananas, and how it was used in UK media.",
+        "url": "https://www.theguardian.com/politics/2016/may/11/boris-johnson-launches-the-vote-leave-battlebus-in-cornwall",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "Office for National Statistics (ONS)",
+        "description": "Data on UK-EU trade and migration after Brexit.",
+        "url": "https://www.ons.gov.uk",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "NatCen Social Research – Understanding the Leave Vote",
+        "description": "Post-referendum analysis on why people voted Leave, including attitudes on sovereignty and immigration.",
+        "url": "https://whatukthinks.org/eu/analysis/why-did-britain-vote-to-leave-the-eu/",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "BBC Brexit Timeline",
+        "description": "Comprehensive timeline and explanation of Brexit developments from 2016 onward.",
+        "url": "https://www.bbc.co.uk/news/uk-politics-32810887",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "UK in a Changing Europe",
+        "description": "Independent research institute offering in-depth Brexit analysis and data.",
+        "url": "https://ukandeu.ac.uk",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "House of Commons Library – Brexit Negotiations",
+        "description": "Briefings on Brexit agreements, parliamentary debates, and legal implications.",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7960/",
+        "date": "04.05.2025"
+      },
+      {
+        "name": "ChatGPT (OpenAI)",
+        "description": "Create a structured overview of the Brexit process, including key events and dates and sources.",
+        "url": "https://chat.openai.com",
+        "date": "04.05.2025"
+      }
     ]
-}
+  }
+  
 export const Brexit = () => {
 
     useEffect(() => {
